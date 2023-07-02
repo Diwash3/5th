@@ -21,8 +21,8 @@ for(i in 1:n)
 student<-cbind(student,age)
 print(student)
 for(i in 1:n)
-  if(student[i,][4]<20)
-    if(student[i,][3]>25)
-      print(student[i,][2])
+	if ( student[i,][3] > 25 )
+		if (student[i,][4] > 20)
+			print(student[i,])
 
 
