@@ -1,4 +1,4 @@
-import scala.io.Source
+import scala.io.StdIn
 import scala.collection.mutable.ArrayBuffer
 object MinMax {
 def main(args:Array[String]):Unit={
